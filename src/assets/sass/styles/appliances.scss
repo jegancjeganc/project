@@ -1,0 +1,41 @@
+#appliances{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+
+
+.product{
+    width: 200px;
+    padding: 10px;
+    margin: 17px 0;
+    transition: all .3s ease;
+    box-shadow: 0 0 10px #ccc;
+    border-radius: 10px;
+}
+img{
+    max-height: 131px;
+    min-height: 130px;
+    max-width: 100%;
+}
+.product:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+
+}
+
+
+
+button{
+    height: 30px;
+    width: 100px;
+    background-color: orange;;
+    border: none;
+    border-radius: 3px;
+    color: white;
+}
+button:hover{
+    background-color: #ffa500b8;
+}
+}

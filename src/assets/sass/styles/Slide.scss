@@ -1,0 +1,9 @@
+#slide{
+    .carousel-item img { 
+    height: 200px; /* Set the height of the image */
+    max-width: 100%; /* Ensures the image doesn't exceed its container's width */
+    max-height: 350px; /* Sets a maximum height for the image */
+    object-fit: cover;
+    object-position: center top; /* Centers the image vertically and aligns it to the top */
+  }
+}
