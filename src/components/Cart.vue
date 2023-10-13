@@ -3,7 +3,7 @@
         <div class='container'  v-if="cartItems.length != 0">
         <div class='row ca' v-for="cartItem,index in cartItems" :key="cartItem.id">
             <div class="col-lg-4">
-                <img :src="cartItem.image" >
+                <img :src="cartItem.image" :alt="error" >
                 
             </div>
 
